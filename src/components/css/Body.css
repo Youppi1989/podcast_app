@@ -1,0 +1,126 @@
+.container {
+    width: 1300px;
+    height: 873px;
+    margin: 10px auto 0; /* Отступ сверху 10px, отступ сбоку auto */
+    display: flex;
+    align-items: flex-start; 
+  }
+  
+  .image {
+    width: 50%;
+    margin-left: 20px;
+    border-radius: 4%;
+  }
+  
+  .text {
+    width: 50%;
+    text-align: left; 
+    box-sizing: border-box;
+    color: beige;
+    font-size: 40px;
+    margin-top: 70px;
+    margin-left:200px;
+  }
+  
+  .socialMedia {
+    color: beige;
+    margin-left: 20px; 
+    margin-top:-450px ;
+   
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+  .iconsContainer {
+    display: flex;
+    margin-left: 20px;
+  }
+  
+  .icon {
+    width: 26px; 
+    height: 26px; 
+    margin-right: 10px; 
+    cursor: pointer; 
+  }
+  .episodes{
+    color:beige;
+  }
+  .equipment{
+    width:389px;
+    height:465px;
+    margin-left: 20px;
+    margin-top:40px
+  }
+  .episodes_container{
+
+    height: 545px;
+    margin: 30px 15px 10px 15px; /* Отступ сверху 10px, отступ сбоку auto */
+    display: flex;
+    align-items: flex-start; 
+    text-align: left;
+    background-color: darkslategray;
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+  }
+  .episode_number{
+    color:#118DA8;
+    font-size: 15px;
+  }
+  .title{
+    font-size: 14px;
+    font-style: normal;
+    line-height: 30px;
+  }
+  .button{
+    background-color: #118DA8;
+    color:aliceblue;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border:none;
+    cursor: pointer;
+  }
+  .about{
+    display: flex;
+    margin-left: -150px;
+    margin-top:70px;
+  }
+  .podcast{
+    border-radius: 12px;
+    margin-right: 15px;
+  }
+  .subscribe_container{
+    height: 390px;
+    width:450px;
+    margin: 30px 15px 10px 15px; /* Отступ сверху 10px, отступ сбоку auto */
+    display: flex;
+    background-color: darkslategray;
+    margin-bottom: 20px;
+    border-radius: 10px;
+ 
+
+  }
+  .text_subscribe{
+    width: 50%;
+    box-sizing: border-box;
+    color: beige;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  .inputs {
+    margin-bottom: -10px; /* Отступ между инпутами */
+    color:#118DA8;
+  }
+  
+  .button_container {
+    margin-top: 10px; /* Отступ между инпутами и кнопкой */
+  }
+.Name{
+  background-color: black;
+  border: none;
+  padding: 10px;
+  border-radius: 7px;
+}

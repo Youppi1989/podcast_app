@@ -1,0 +1,27 @@
+.App-header {
+  min-height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.left {
+  color: white;
+  font-style: oblique;
+}
+
+.right {
+  display: flex;
+  gap: 50px;
+  color: white;
+}
+
+.right span {
+  text-decoration: none; /* Убираем подчеркивание */
+  cursor: pointer; /* Делаем курсор указателем при наведении */
+}
+.home{
+  color: aquamarine;
+  font-style: italic;
+}
