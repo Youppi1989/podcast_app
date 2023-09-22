@@ -79,6 +79,22 @@ function Body() {
           <button className='button' onClick={handleSubscribeClick}>Subscribe</button>
         </div>
       </div>
+      
+              </div>
+              <div className="square-container">
+        <div className="square">
+          <h2>Елена Игоревна</h2>
+          <p>Супер подкаст, слушаю уже несколько месяцев.</p>
+        </div>
+        <div className="square">
+          <h2>Иван Акунин</h2>
+          <p>Понравился голос и актуальность темы.</p>
+        </div>
+        <div className="square">
+          <h2>Ксения Римова</h2>
+          <p>Норм.</p>
+        </div>
+        
               </div>
               </div>
           

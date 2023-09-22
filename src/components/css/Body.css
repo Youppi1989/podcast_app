@@ -1,7 +1,7 @@
 .container {
     width: 1300px;
     height: 873px;
-    margin: 10px auto 0; /* Отступ сверху 10px, отступ сбоку auto */
+    margin: 10px auto 0; 
     display: flex;
     align-items: flex-start; 
   }
@@ -56,7 +56,7 @@
   .episodes_container{
 
     height: 545px;
-    margin: 30px 15px 10px 15px; /* Отступ сверху 10px, отступ сбоку auto */
+    margin: 30px 15px 10px 15px; 
     display: flex;
     align-items: flex-start; 
     text-align: left;
@@ -94,7 +94,7 @@
   .subscribe_container{
     height: 390px;
     width:450px;
-    margin: 30px 15px 10px 15px; /* Отступ сверху 10px, отступ сбоку auto */
+    margin: 30px 15px 10px 15px; 
     display: flex;
     background-color: darkslategray;
     margin-bottom: 20px;
@@ -111,16 +111,41 @@
     margin-left: 20px;
   }
   .inputs {
-    margin-bottom: -10px; /* Отступ между инпутами */
+    margin-bottom: -10px; 
     color:#118DA8;
   }
   
   .button_container {
-    margin-top: 10px; /* Отступ между инпутами и кнопкой */
+    margin-top: 10px; 
   }
 .Name{
   background-color: black;
   border: none;
   padding: 10px;
   border-radius: 7px;
+}
+.square-container {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 20px; 
+  justify-content: center;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  margin-left: 20px; 
+  background-color: lightblue;
+  text-align: center;
+  padding: 10px;
+  border-radius: 9px;
+}
+
+
+.square h2 {
+  margin: 10px;
+}
+
+.square p {
+  margin: 0;
 }

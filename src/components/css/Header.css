@@ -18,8 +18,8 @@
 }
 
 .right span {
-  text-decoration: none; /* Убираем подчеркивание */
-  cursor: pointer; /* Делаем курсор указателем при наведении */
+  text-decoration: none; 
+  cursor: pointer; 
 }
 .home{
   color: aquamarine;
